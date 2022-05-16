@@ -20,7 +20,7 @@ https://portal.amootsms.com/webservice2.asmx
 
 
 ## نمونه کد ارسال پیامک
-```C#
+```csharp
 string UserName = "MyUserName";
 string Password = "MyPassword";
 DateTime SendDateTime = DateTime.Now;
@@ -44,7 +44,7 @@ if (result.Status == AmootSMS.Status.Success)
 
 
 ## نمونه کد وضعیت حساب کاربری
-```C#
+```csharp
 string UserName = "MyUserName";
 string Password = "MyPassword";
 
