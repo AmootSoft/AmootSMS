@@ -20,6 +20,8 @@ https://portal.amootsms.com/webservice2.asmx
 
 
 ## نمونه کد ارسال پیامک
+از طریق این متد می توانید با وارد کردن متن و شماره ، پیامک های خود را به شماره یا شماره های انتخابی ارسال نمایید.
+
 ```csharp
 string UserName = "MyUserName";
 string Password = "MyPassword";
@@ -44,6 +46,8 @@ if (result.Status == AmootSMS.Status.Success)
 
 
 ## نمونه کد وضعیت حساب کاربری
+از طریق این متد می توانید تمامی اطلاعات حساب کاربری خود از قبیل اعتبار باقیمانده و موجود در پنل ، تعرفه های ارسال و لیست خطوط را دریافت نمایید .
+
 ```csharp
 string UserName = "MyUserName";
 string Password = "MyPassword";
