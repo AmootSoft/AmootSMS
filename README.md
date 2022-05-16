@@ -41,3 +41,19 @@ if (result.Status == AmootSMS.Status.Success)
     //خروجی
 }
 ```
+
+
+## نمونه کد وضعیت حساب کاربری
+```C#
+string UserName = "MyUserName";
+string Password = "MyPassword";
+
+AmootSMS.AmootSMSWebService2SoapClient client = new AmootSMS.AmootSMSWebService2SoapClient("AmootSMSWebService2Soap12");
+
+AmootSMS.AccountStatusResult result = client.AccountStatus(UserName, Password);
+
+if (result.Status == AmootSMS.Status.Success)
+{
+    //خروجی
+}
+```
