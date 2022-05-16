@@ -20,3 +20,24 @@ https://portal.amootsms.com/webservice2.asmx
 
 
 # نمونه کد ارسال پیامک
+```C#
+string UserName = "MyUserName";
+string Password = "MyPassword";
+DateTime SendDateTime = DateTime.Now;
+string SMSMessageText = "پیامک تستی من";
+string LineNumber = "public";
+string[] Mobiles = new string[]
+{
+    "9120000000",
+    "9150000000",
+};
+
+AmootSMS.AmootSMSWebService2SoapClient client = new AmootSMS.AmootSMSWebService2SoapClient("AmootSMSWebService2Soap12");
+
+AmootSMS.SendResult result = client.SendSimple(UserName, Password, SendDateTime, SMSMessageText, LineNumber, Mobiles);
+
+if (result.Status == AmootSMS.Status.Success)
+{
+    //خروجی
+}
+```
