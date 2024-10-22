@@ -187,7 +187,7 @@ var postData = JSON.stringify({
 var options = {
     hostname: 'portal.amootsms.com',
     port: 443,
-    path: '/webservice2.asmx/SendSimple',
+    path: '/rest/SendSimple',
     method: 'POST',
     headers: {
         'Content-Type': 'application/x-www-form-urlencoded',
