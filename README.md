@@ -9,7 +9,7 @@ https://www.amootsms.com
 https://portal.amootsms.com
 
 آدرس مستندات وب سرویس 
-https://doc.amootsms.com
+https://portal.amootsms.com/documentation
 
 ## وب سرویس پیامک آموت - REST (REST)
 آدرس وب سرویس https://portal.amootsms.com/rest
